@@ -1,3 +1,40 @@
 @charset "UTF-8";
 /* Paleta de Cores : 
-#401280 , #AC70FF , #8024FF , #563880 , #661DCC */
+#DC8DF2 , #CA6DF2 , #8836BF , #56208C , #100126 */
+*{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body , html{
+    background-color: #8836BF ;
+    height: 100vh;
+    width: 100vh;
+}
+
+main{
+    height: 100vh;
+    width: vw;
+}
+#login{ 
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px #100126;
+}
+section#login > div#imagem{
+    background:#8836BF url(Computador.avif) ;
+    background-position: left top;
+    height: 300px;
+}
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+}
