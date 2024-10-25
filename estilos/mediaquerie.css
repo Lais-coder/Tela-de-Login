@@ -3,9 +3,11 @@
 @media screen and (min-width:768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(   #CA6DF2 , #56208C);
+        
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
     section#login >div#imagem {
         float: left;
@@ -23,6 +25,7 @@
     }
     section#login {
         width: 950px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right;
